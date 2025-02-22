@@ -1,0 +1,13 @@
+
+run this:
+
+cd Documents/opencv1/ && source myenv/bin/activate && pip install mss &&python3 record_screen6.py
+or separate
+cd Documents/opencv1/
+source myenv/bin/activate
+pip install mss
+python3 record_screen6.py
+
+Close the terminal to stop the recording
+
+notes: for some reason mms that is used for recording cannot be installed permentently. We therefore activate local env and record_screen6
