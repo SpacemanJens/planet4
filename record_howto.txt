@@ -11,3 +11,14 @@ python3 record_screen6.py
 Close the terminal to stop the recording
 
 notes: for some reason mms that is used for recording cannot be installed permentently. We therefore activate local env and record_screen6
+
+To install the python and opencv do something like:
+brew install python
+python3 --version
+//If you see something like Python 3.x.x, it means Python is installed.
+
+pip3 install --user opencv-python
+or maybe
+//Use a Virtual Environment
+python3 -m venv myenv
+pip install opencv-python
